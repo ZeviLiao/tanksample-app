@@ -1,4 +1,4 @@
-import { ClinetButton } from './clinet-button';
+import ClientButton from './clinet-button';
 
 export default function Page1() {
   return (
@@ -6,7 +6,7 @@ export default function Page1() {
       <h2>Page 1</h2>
       <p>This is Page 1.</p>
 
-      <ClinetButton />
+      <ClientButton />
     </div>
   );
 }

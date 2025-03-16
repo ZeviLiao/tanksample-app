@@ -16,9 +16,3 @@ const fetchMenu = async (): Promise<MenuItem[]> => {
   }));
 };
 
-export const useMenu = () => {
-  return useQuery({
-    queryKey: ['menu'],
-    queryFn: fetchMenu,
-  });
-};

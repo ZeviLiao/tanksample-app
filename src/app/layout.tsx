@@ -1,6 +1,7 @@
 import { PropsWithChildren } from 'react';
 import Header from '@/components/Header';
 import QueryProvider from '@/providers/QueryProvider';
+import './globals.css'
 
 const RootLayout = ({ children }: PropsWithChildren) => {
   return (
